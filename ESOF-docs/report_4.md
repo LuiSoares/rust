@@ -40,11 +40,6 @@ Now we will show how to test Rust Code.
 
 Rust contains the **test attribute** and the **ignore attribute**,both of them are used in different situations but all the aprroaches use the same basic tools.
 
- ## Test
-  
-At its simplest, a test in Rust is a function that's annotated with the **test** attribute.
-
-![alt tag](https://github.com/martapips/rust/blob/master/ESOF-docs/res/test.png?raw=true)
 
 
 [Test chapter]:https://doc.rust-lang.org/book/testing.html
