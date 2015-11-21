@@ -35,6 +35,16 @@ During the tests, the compiler performs the heavy lifting when it comes to commo
 For Rust, the usual practice is having tests right below where something is defined. 
 
 One of the biggest concerns about the testability of Rust is the lack of support for coverage analysis tools. 
+
+Now we will show how to test Rust Code.
+
+Rust contains the **test attribute** and the **ignore attribute**,both of them are used in different situations but all the aprroaches use the same basic tools.
+
+  ## Test
+  
+At its simplest, a test in Rust is a function that's annotated with the **test** attribute. 
+
+
 [Test chapter]:https://doc.rust-lang.org/book/testing.html
 
 
