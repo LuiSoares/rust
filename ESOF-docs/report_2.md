@@ -3,7 +3,7 @@
 ## Index
 
 1. [Definition of Requirements](#definition-of-requirements)
-2. [RUST's requirements](#rust's-requirements)
+2. [RUST's requirements](#rusts-requirements)
   1. [Bugs](#bugs)
 3. [Pull Requests](#pull-requests)
 4. [New Features](#new-features)
@@ -40,7 +40,7 @@ All of this refinement prior to 1.0 was in service of reaching clarity on what R
 
 As said above, requirements are conditions that the costumer wants the software to have before it is delivered.
 
-### RUST's requirements
+### RUSTs requirements
 
 1. To be a fast systems programming language;
 2. Guarantee memory safety;
@@ -155,6 +155,8 @@ _NOTE: If anyone wants to propose a new feature to the Rust language, an issue s
 ### Use Cases
 
 ![alt tab](https://github.com/martapips/rust/blob/master/ESOF-docs/res/rustUseCaseDiagram.jpg?raw=true)
+
+![alt tab](http://i.imgur.com/XAGvABg.png)
 
 ### Critical Analysis
 
