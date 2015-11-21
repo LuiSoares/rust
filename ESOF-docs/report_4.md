@@ -10,7 +10,21 @@
 
 
 ## Introduction
-In this report we will describe the testing part of **Rust**. We will check the degree of testability by analising some factors like  **controllability**, **observability**, **isolateability**, **separation of concerns**, **understandability** and **heterogeneity**. 
+
+> Software testability is the degree to which a software artifact (i.e. a software system, software module, requirements- or design document) supports testing in a given test context. If the testability of the software artifact is high, then finding faults in the system (if it has any) by means of testing is easier.
+
+>  _Definition from [Wikipedia]_
+[Wikipedia]: https://en.wikipedia.org/wiki/Software_testability
+
+In this report we will check **Rust**'s degree of testability by analising some factors like:
+- **Controllability**: The degree to which it is possible to control the state of the component under test (CUT) as required for testing.
+- **Observability**: The degree to which it is possible to observe (intermediate and final) test results.
+- **Isolateability**: The degree to which the component under test (CUT) can be tested in isolation.
+- **Separation of concerns**: The degree to which the component under test has a single, well defined responsibility.
+- **Understandability**: The degree to which the component under test is documented or self-explaining.
+- **Heterogeneity**: The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.
+
+
 
 ## Testability 
 
@@ -31,13 +45,4 @@ PODEMOS USAR ISTO NA CRITICAL ANALYSIS MAS AINDA N TÁ BEM ESTRUTURADO.
 
 By the simple expedient of discouraging shared mutable state, Rust leans toward being testable. testability will mostly boil down to your design. You can use global state, you can mix I/O within your routines, ... and if you do things get more complicated to test. One can write a convoluted mess of code in any language, Rust is no exception.
 
-N FAZ PARTE DO RELATÓRIO APENAS É PA AJUDAR
-
-The testability of software components (modules, classes) is determined by factors such as:
-- Controllability: The degree to which it is possible to control the state of the component under test (CUT) as required for testing.
-- Observability: The degree to which it is possible to observe (intermediate and final) test results.
-- Isolateability: The degree to which the component under test (CUT) can be tested in isolation.
-- Separation of concerns: The degree to which the component under test has a single, well defined responsibility.
-- Understandability: The degree to which the component under test is documented or self-explaining.
-- Heterogeneity: The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.
 
