@@ -17,7 +17,12 @@ We are 4 students of the Engineering Faculty of the University of Oporto, and we
 ***
 
 ### Authors
- - João Nogueira
- - Marta Lopes
- - Pedro Silva
- - Filipa Barroso
+ - [João Nogueira] - up201303882
+ - [Marta Lopes] - up201208067
+ - [Pedro Silva] - up201306032
+ - [Filipa Barroso] - up201307852
+
+[João Nogueira]:https://github.com/hpnog
+[Marta Lopes]:https://github.com/martapips
+[Pedro Silva]:https://github.com/arcanjo45
+[Filipa Barroso]:https://github.com/FilipaBarroso
