@@ -36,9 +36,12 @@ For Rust, the usual practice is having tests right below where something is defi
 
 One of the biggest concerns about the testability of Rust is the lack of support for coverage analysis tools. 
 
-Now we will show how to test Rust Code.
+Its is very easy to isolate components in Rust because there is no inheritance or ohter convulted form of dependency.
+If you want to create an hierarchy that reuses data, you must compose the types explicitly (include the supertype as a field), this is called "composition over inheritance".
 
-Rust contains the **test attribute** and the **ignore attribute**,both of them are used in different situations but all the aprroaches use the same basic tools.
+Another thing that makes Rust easier to test is that it has no exceptions. On some languages, it's hard to understand which set of exceptions you need to test for each piece of code. (Rust has panics, that typically terminate the program; but panics aren't an usual technique for error handling, and instead signal that the program encountered an error that isn't recoverable).
+
+As with any project, the project itself plays a big role. That said, for unit testing Rust's existing test tools are more than adequate. Integration testing may be more difficult, depending on what you're integrating, but Cargo supports custom tests that don't use the built-in harness, so it's not too hard to write tests that do what you need.
 
 
 
