@@ -5,6 +5,7 @@
 1. [Introduction](#introduction)
 2. [Testability](#testability)
 3. [Test Statistics](#test-statistics)
+4. [Bugs] (#bugs)
 4. [Critical Analysis](#critical-analysis)
 
 
@@ -57,7 +58,9 @@ In the pull requests we found out that there are lots of cases in which integer 
 However, we didn't really knew how to fix the bug and we only found it thanks to the discussion on the pull request, the bug was kind of solved by the author of the pull request but only for some cases.
 
 ## Critical Analysis
-Rust is a well organized project with a lot of contributors and very active. Despite this it was a little hard to gatter all information and if it weren't for Rust's Reddit and the their official forum it would be impossible to do any of the reports. This last report was a little bit more difficult because we had to work with the repository in a more specific way, the testing part of Rust required a lot of stuff that we didn't had any ideia how to use. 
+**Rust** is a well organized project with a lot of contributors and very active. Despite this it was a little hard to gatter all information and if it weren't for [Rust's Reddit] and the their [official forum] it would be impossible to do any of the reports. This last report was a little bit more difficult because we had to work with the repository in a more specific way, the testing part of Rust required a lot of stuff that we didn't had any ideia how to use. 
 
 
+[Rust's Reddit]:https://www.reddit.com/r/rust/
+[official forum]:https://internals.rust-lang.org/
 
