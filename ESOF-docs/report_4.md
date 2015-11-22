@@ -60,6 +60,8 @@ However, we didn't really knew how to fix the bug and we only found it thanks to
 ## Critical Analysis
 **Rust** is a well organized project with a lot of contributors and very active. Despite this it was a little hard to gatter all information and if it weren't for [Rust's Reddit] and the their [official forum] it would be impossible to do any of the reports. This last report was a little bit more difficult because we had to work with the repository in a more specific way, the testing part of Rust required a lot of stuff that we didn't had any ideia how to use. 
 
+Regarding the _test statistics_ we had several problems while trying to run the tests in this repository and we could not find any information about any _test statistics_ related to tests run on Rust.
+
 
 [Rust's Reddit]:https://www.reddit.com/r/rust/
 [official forum]:https://internals.rust-lang.org/
