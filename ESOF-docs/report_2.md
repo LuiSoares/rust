@@ -36,7 +36,7 @@ All of this refinement prior to 1.0 was in service of reaching clarity on what R
 >> 3. A documented representation of a condition or capability as in 1 or 2.
 
 >  _Requirement definition from [Wikipedia]_
-[Wikipedia]: www.sapo.pt
+[Wikipedia]:https://en.wikipedia.org/wiki/Requirement
 
 As said above, requirements are conditions that the costumer wants the software to have before it is delivered.
 
